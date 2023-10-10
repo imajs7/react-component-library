@@ -1,13 +1,14 @@
 {
   "name": "@merncloud/react-component-library",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "MernCloud React Component Library",
   "main": "dist/index.js",
   "type": "module",
   "scripts": {
     "buildLib": "rollup -c",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "prepare": "npm run buildLib"
   },
   "repository": {
     "type": "git",
