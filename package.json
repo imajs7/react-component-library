@@ -8,7 +8,9 @@
     "buildLib": "rollup -c",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "prepare": "npm run buildLib"
+    "prepare": "npm run buildLib",
+    "prepare-publish": "cp -r publish/* ./ && npm run buildLib",
+    "publish": "npm run prepare-publish && npm publish --access=public"
   },
   "repository": {
     "type": "git",

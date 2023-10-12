@@ -1,0 +1,7 @@
+{
+  "name": "@merncloud/react-component-library",
+  "version": "1.0.1",
+  "description": "MernCloud React Component Library",
+  "main": "dist/index.js",
+  "type": "module"
+}
